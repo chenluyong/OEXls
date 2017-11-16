@@ -9,7 +9,7 @@ QT       -= gui
 DEFINES += QT_IDE
 
 DESTDIR = $$PWD/../state/lib/
-TARGET = auditxls
+TARGET = OEXls
 Release:TEMPLATE = lib
 Debug:TEMPLATE = app
 
@@ -45,20 +45,17 @@ DISTFILES += \
 # 版本信息
 VERSION = 1.0.0.0
 
-## 图标
-#RC_ICONS = Images/MyApp.ico
-
 # 公司名称
-QMAKE_TARGET_COMPANY = "eshanren for WenZhou"
+QMAKE_TARGET_COMPANY = "OE for WenZhou"
 
 # 产品名称
 QMAKE_TARGET_PRODUCT = "excel base"
 
 # 文件说明
-QMAKE_TARGET_DESCRIPTION = "excel base for eshanren(cross platform)"
+QMAKE_TARGET_DESCRIPTION = "excel base for OE(cross platform)"
 
 # 版权信息
-QMAKE_TARGET_COPYRIGHT = "Copyright 2015-2018 The eshanren Company Ltd. All rights reserved."
+QMAKE_TARGET_COPYRIGHT = "Copyright 2015-2018 The OE Company Ltd. All rights reserved."
 
 # 中文（简体）
 RC_LANG = 0x0004
